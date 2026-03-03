@@ -536,7 +536,7 @@ function buildOnboardArgs(payload) {
     "--workspace",
     WORKSPACE_DIR,
     "--gateway-bind",
-    "lan",
+    "loop",
     "--gateway-port",
     String(INTERNAL_GATEWAY_PORT),
     "--gateway-auth",
